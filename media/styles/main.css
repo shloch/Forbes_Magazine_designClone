@@ -1,4 +1,128 @@
 body {
-  background-color: yellowgreen; }
+  margin: 0%;
+  padding: 0%; }
+
+header {
+  background-color: #131111;
+  color: white;
+  display: grid;
+  grid-template-columns: 13% 72% 15%;
+  grid-template-rows: 100%;
+  grid-template-areas: "hamburger logo searchIcon";
+  margin: 0%;
+  padding: 0%; }
+  header div {
+    padding-bottom: 6.3%; }
+  header .hamburger {
+    grid-area: hamburger;
+    padding-top: 54.3%;
+    text-align: center; }
+  header .logo {
+    grid-area: logo;
+    font-size: 1.76em;
+    padding-top: 7.4%;
+    font-weight: bold; }
+  header .searchIcon {
+    grid-area: searchIcon;
+    padding-top: 44%;
+    text-align: center;
+    font-size: 1.3em; }
+
+@media screen and (min-width: 426px) {
+  header {
+    grid-template-columns: 7% 85% 8%; }
+    header div {
+      padding-bottom: 1.3%; }
+    header .hamburger {
+      grid-area: hamburger;
+      padding-top: 39.3%;
+      text-align: center;
+      font-size: 1.7em; }
+    header .logo {
+      grid-area: logo;
+      font-size: 2.76em;
+      padding-top: 1.3%; }
+    header .searchIcon {
+      grid-area: searchIcon;
+      padding-top: 32%;
+      text-align: center;
+      font-size: 1.7em; }
+
+  section[id="breaknewsTablet"] {
+    padding-top: 4%; }
+    section[id="breaknewsTablet"] div[id="ruban"] {
+      background-color: #d8361e;
+      color: white;
+      font-family: Work Sans,sans-serif;
+      color: white;
+      width: fit-content;
+      margin: 0;
+      margin-left: 9%;
+      padding: 0.1% 1.4%; }
+      section[id="breaknewsTablet"] div[id="ruban"] p {
+        font-weight: bold;
+        font-size: 0.69em; }
+    section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] {
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: auto;
+      grid-template-areas: "prevArrow carouselSlides nextArrow"; }
+      section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .prevArrow {
+        grid-area: prevArrow;
+        font-size: 2.5rem;
+        padding: 30% 0 0 10%;
+        color: gray; }
+      section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .nextArrow {
+        grid-area: nextArrow;
+        font-size: 2.5rem;
+        padding: 30% 0 0 25%;
+        color: gray; }
+      section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides {
+        grid-area: carouselSlides; }
+        section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides div[class="newsCouple"] {
+          margin-top: 1%;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: auto;
+          grid-template-areas: "news-1 news-2";
+          font-family: Work Sans,sans-serif; }
+          section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides div[class="newsCouple"] .newsTime {
+            color: #737373;
+            font-size: 0.8em;
+            line-height: 1.17; }
+          section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides div[class="newsCouple"] .headline {
+            font-weight: bolder; }
+          section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides div[class="newsCouple"] .news-1 {
+            grid-area: news-1; }
+          section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides div[class="newsCouple"] .news-2 {
+            grid-area: news-2; }
+          section[id="breaknewsTablet"] div[id="breakingNews"] div[class="container"] .carousel__slides div[class="newsCouple"] div[class="headline"] {
+            padding-top: 2%;
+            color: #333; }
+
+  .hideSlide {
+    display: none; }
+
+  .newsCouple {
+    animation: slide 1s ease-in;
+    animation-delay: 2s; }
+
+  @keyframes slide {
+    100% {
+      left: 0; } } }
+@media screen and (min-width: 769px) {
+  header .hamburger {
+    padding-top: 26.3%;
+    font-size: 1.7em; }
+  header .logo {
+    text-align: center; } }
+@media screen and (min-width: 1441px) {
+  header .hamburger {
+    font-size: 4.2rem; }
+  header .logo {
+    text-align: center;
+    font-size: 5.7rem; }
+  header .searchIcon {
+    font-size: 4.2rem; } }
 
 /*# sourceMappingURL=main.css.map */

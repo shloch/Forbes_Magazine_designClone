@@ -4,12 +4,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
   <title>Forbes Mazine design clone</title>
   <link rel="stylesheet" href="media/styles/main.css">
 </head>
 
 <body>
-  <h1> Hello World ! </h1>
+  <header>
+    <div class="hamburger"><i class="fas fa-bars"></i></div>
+    <div class="logo">
+      Forbes
+    </div>
+    <div class="searchIcon"><i class="fas fa-search"></i></div>
+  </header>
+
+  <section id="breaknewsTablet">
+    <div id="ruban">
+      <p>BREAKING</p>
+    </div>
+    <div id="breakingNews">
+      <div class="container">
+        <div class="prevArrow"><i class="fas fa-arrow-circle-left"></i></div>
+        <div class="carousel__slides">
+          <!-- <ul> -->
+
+          <div class="carousel__slide" aria-current="true">
+            <div class="newsCouple">
+              <div class="news-1">
+                <span class="newsTime">2 hours ago</span>
+                <div class="headline"> Belynda Musk is nearly $10 billion Richer.
+                  This week she received alot of money from @shloch
+                </div>
+              </div>
+              <div class="news-2">
+                <span class="newsTime">2 hours ago</span>
+                <div class="headline"> Belynda Musk is nearly $10 billion Richer.
+                  This week she received alot of money from @shloch
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- </ul> -->
+
+          <!-- <ul> -->
+
+          <div class="carousel__slide hideSlide" aria-hidden="true">
+            <div class="newsCouple">
+              <div class="news-1">
+                <span class="newsTime">2 hours ago</span>
+                <div class="headline"> The Santa Clara Valley Historical Association conducted
+                  a film interview with Steve Jobs in 1994.
+                </div>
+              </div>
+              <div class="news-2">
+                <span class="newsTime">2 hours ago</span>
+                <div class="headline"> The Santa Clara Valley Historical Association conducted
+                  a film interview with Steve Jobs in 1994.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- </ul> -->
+        </div>
+
+        <div class="nextArrow"><i class="fas fa-arrow-circle-right"></i></div>
+      </div>
+
+    </div>
+    </div>
+  </section>
   <script src="media/js/myscript.js"></script>
 </body>
 

@@ -1,3 +1,55 @@
 body {
-  background-color: yellowgreen;
+  //background-color: yellowgreen;
+  margin: 0%;
+  padding: 0%;
 }
+
+header {
+  background-color: rgb(19, 17, 17);
+  color: white;
+  display: grid;
+  grid-template-columns: 13% 72% 15%;
+  grid-template-rows: 100%;
+  grid-template-areas: "hamburger logo searchIcon";
+  margin: 0%;
+  padding: 0%;
+  div {
+    padding-bottom: 6.3%;
+  }
+
+  .hamburger {
+    grid-area: hamburger;
+    padding-top: 54.3%;
+    text-align: center;
+  }
+  .logo {
+    grid-area: logo;
+    font-size: 1.76em;
+    padding-top: 7.4%;
+    font-weight: bold;
+    // padding-top: 50%;
+  }
+  .searchIcon {
+    grid-area: searchIcon;
+    padding-top: 44%;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+}
+//tablet
+@media screen and (min-width: 426px) {
+  @import 'tabletStyles';
+}
+
+//laptop
+@media screen and (min-width: 769px) {
+  @import 'laptopStyles';
+}
+
+//cinemaTv
+@media screen and (min-width: 1441px) {
+  @import 'cinemaTvStyles';
+}
+
+

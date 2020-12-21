@@ -1,0 +1,30 @@
+
+header {
+  grid-template-columns: 7% 85% 8%;
+  div {
+    padding-bottom: 1.3%;
+    // border: 1px solid orange;
+  }
+  .hamburger {
+    grid-area: hamburger;
+    padding-top: 39.3%;
+    text-align: center;
+    font-size: 1.7em;
+  }
+  .logo {
+    grid-area: logo;
+    font-size: 2.76em;
+    padding-top: 1.3%;
+    // border: 1px solid palevioletred;
+  }
+  .searchIcon {
+    grid-area: searchIcon;
+    padding-top: 32%;
+    text-align: center;
+    font-size: 1.7em;
+  }
+  
+  
+}
+
+@import 'carouselTablet';
