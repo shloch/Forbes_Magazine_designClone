@@ -26,5 +26,12 @@ header {
   
   
 }
+section[id="breaknewsLaptop"] {
+  display: none;
+}
+
+section[id="breaknewsTablet"] {
+  display: block;
+}
 
 @import 'carouselTablet';

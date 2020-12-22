@@ -1,4 +1,4 @@
-section[id="breaknewsTablet"] {
+section[id="breaknewsLaptop"] {
   padding-top:4%;
   div[id="ruban"] {
     background-color: #d8361e;
@@ -51,14 +51,14 @@ section[id="breaknewsTablet"] {
             div[class="newsCouple"] {
               margin-top: 1%;
               display: grid;
-              grid-template-columns: 50% 50%;
+              grid-template-columns: 25% 25% 25% 25%;
               grid-template-rows: auto;
-              grid-template-areas: "news-1 news-2";
+              grid-template-areas: "news-1 news-2 news-3 news-4";
+              color: #333;
               font-family: Merriweather;
               font-size: 14px;
               font-weight: 700;
               line-height: 1.71;
-              
               
              
               .newsTime {
@@ -73,14 +73,22 @@ section[id="breaknewsTablet"] {
               }
               .news-1 {
                 grid-area: news-1;
-                // border-left: 0.5px solid rgb(209, 206, 206);
-                // padding-left: 5%;
+                padding-left: 5%;
               }
               .news-2 {
                 grid-area: news-2;
                 border-left: 0.5px solid rgb(209, 206, 206);
                 padding-left: 5%;
-
+              }
+              .news-3 {
+                grid-area: news-3;
+                border-left: 0.5px solid rgb(209, 206, 206);
+                padding-left: 5%;
+              }
+              .news-4 {
+                grid-area: news-4;
+                border-left: 0.5px solid rgb(209, 206, 206);
+                padding-left: 5%;
               }
               div[class="headline"] {
                 padding-top: 2%;
@@ -97,7 +105,7 @@ section[id="breaknewsTablet"] {
   }
 }
 
-.hideSlide{
+.hideSlide, .nextArrow1, .prevArrow1 {
   display: none;
   // border:1px solid orangered;
 }

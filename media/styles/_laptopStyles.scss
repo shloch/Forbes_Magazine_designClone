@@ -7,3 +7,14 @@ header {
     text-align: center;
   }
 }
+
+section[id="breaknewsTablet"] {
+  display: none;
+}
+
+
+section[id="breaknewsLaptop"] {
+  display: block;
+}
+
+@import 'carouselLaptop';
