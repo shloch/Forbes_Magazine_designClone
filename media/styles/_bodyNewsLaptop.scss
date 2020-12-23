@@ -1,0 +1,14 @@
+section[id="news-body"] {
+  div[class="news-body-container"] {
+    grid-template-areas: "picture-headline picture-headline aside"
+                         "twin-blog twin-blog aside"
+                         "twin-blog twin-blog aside";
+
+  }
+  div[class="news-body-container_l"] {
+    grid-template-areas: "aside_l picture-headline_l picture-headline_l"
+                         "aside_l twin-blog_l twin-blog_l"
+                         "aside_l twin-blog_l twin-blog_l";
+
+  }
+}
