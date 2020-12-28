@@ -190,7 +190,9 @@ hr[class="newsCrossline"] {
 
   }
   div[class="slang"] {
-    margin: 10% 3%;
+    max-width: 80%;
+
+    margin: auto;
     padding-bottom:1rem ;
     padding-top:1rem ;
     color: #353333;
@@ -200,18 +202,36 @@ hr[class="newsCrossline"] {
     border-bottom: 1px solid rgb(226, 224, 224);
     text-align: center;
     div[class="slang-fobes"] {
-      font: 10px Work Sans,sans-serif;
+      font: 12px Work Sans,sans-serif;
       letter-spacing: 1px;
-      font-weight: bold;
+      min-width: 200px;
       color: #353333;
+      font-weight: bold;
+      padding-bottom: 0.7rem;
+      span {
+        color: #737373;
+        font-weight: 600;
+      }
+    }
+    div[class="slang-feeds"] {
+      font: 700 16px Merriweather,serif;
+      padding-bottom: 1.2rem;
+    }
+    div[class="slang-social-media"] {
+      padding-left: 1rem;
+      padding-bottom: 0.7rem;
+      i{
+        font-size: 17px;
+        color: #686666;
+        padding-right: 2rem;
+      }
     }
 
-    i{
-      font-size: 11px;
-      color: #686666;
-      padding-right: 15px;
-    }
+    
   }
+  div[class="temp"] {
+    height: 50px;
+    }
 
 //tablet
 @media screen and (min-width: 426px) {
@@ -222,9 +242,13 @@ hr[class="newsCrossline"] {
 @media screen and (min-width: 769px) {
   @import 'laptopStyles';
 }
+//large laptop
+@media screen and (min-width: 1025px) {
+  @import 'largeLaptopStyles';
+}
 
 //cinemaTv
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1440px) {
   @import 'cinemaTvStyles';
 }
 

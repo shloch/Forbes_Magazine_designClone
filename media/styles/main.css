@@ -204,7 +204,8 @@ div[class=quotes] div[class=share-icon] {
 }
 
 div[class=slang] {
-  margin: 10% 3%;
+  max-width: 80%;
+  margin: auto;
   padding-bottom: 1rem;
   padding-top: 1rem;
   color: #353333;
@@ -215,15 +216,33 @@ div[class=slang] {
   text-align: center;
 }
 div[class=slang] div[class=slang-fobes] {
-  font: 10px Work Sans, sans-serif;
+  font: 12px Work Sans, sans-serif;
   letter-spacing: 1px;
-  font-weight: bold;
+  min-width: 200px;
   color: #353333;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
 }
-div[class=slang] i {
-  font-size: 11px;
+div[class=slang] div[class=slang-fobes] span {
+  color: #737373;
+  font-weight: 600;
+}
+div[class=slang] div[class=slang-feeds] {
+  font: 700 16px Merriweather, serif;
+  padding-bottom: 1.2rem;
+}
+div[class=slang] div[class=slang-social-media] {
+  padding-left: 1rem;
+  padding-bottom: 0.7rem;
+}
+div[class=slang] div[class=slang-social-media] i {
+  font-size: 17px;
   color: #686666;
-  padding-right: 15px;
+  padding-right: 2rem;
+}
+
+div[class=temp] {
+  height: 50px;
 }
 
 @media screen and (min-width: 426px) {
@@ -556,6 +575,9 @@ div[class=slang] i {
     grid-template-areas: "aside_l picture-headline_l picture-headline_l" "aside_l twin-blog_l twin-blog_l" "aside_l twin-blog_l twin-blog_l";
   }
 
+  div[class=quotes] {
+    margin: 5% 3%;
+  }
   div[class=quotes] div[class=quote-of-the-day] {
     max-width: 18%;
     margin-top: -3.5%;
@@ -702,7 +724,44 @@ div[class=slang] i {
     -ms-grid-column: 2;
   }
 }
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1025px) {
+  div[class=quotes] {
+    margin: 2% 3%;
+  }
+  div[class=quotes] div[class=quote-of-the-day] {
+    max-width: 14%;
+    margin-top: -2.3%;
+  }
+
+  div[class=slang] {
+    min-width: 95%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    height: 1rem;
+    flex-direction: row;
+  }
+  div[class=slang] div[class=slang-fobes] {
+    padding: 0;
+    height: 1.5rem;
+  }
+  div[class=slang] div[class=slang-feeds] {
+    font-weight: bold;
+    margin-left: 24%;
+    padding: 0;
+    height: 1.5rem;
+  }
+  div[class=slang] div[class=slang-social-media] {
+    margin-left: 25%;
+    padding: 0;
+    height: 1.5rem;
+  }
+  div[class=slang] div[class=slang-social-media] i {
+    font-size: 11px;
+    color: #686666;
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
   header .hamburger {
     font-size: 4.2rem;
   }
@@ -712,27 +771,5 @@ div[class=slang] i {
   }
   header .searchIcon {
     font-size: 4.2rem;
-  }
-
-  div[class=slang] {
-    margin: 10% 3%;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    color: #353333;
-    display: flex;
-    flex-direction: row;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
-  }
-  div[class=slang] div[class=slang-fobes] {
-    font: 10px Work Sans, sans-serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: #353333;
-  }
-  div[class=slang] i {
-    font-size: 11px;
-    color: #686666;
-    padding-right: 15px;
   }
 }
