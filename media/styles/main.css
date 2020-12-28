@@ -172,10 +172,11 @@ div[class=quotes] {
 div[class=quotes] div[class=quote-of-the-day] {
   background-color: #ffffff;
   color: #737373;
-  max-width: 35%;
+  max-width: 40%;
   margin-top: -10%;
   margin-left: 30%;
   font-family: Work Sans, sans-serif;
+  letter-spacing: 2px;
 }
 div[class=quotes] div[class=quote] {
   margin-bottom: 2%;
@@ -395,9 +396,9 @@ div[class=temp] {
   }
 
   div[class=quotes] div[class=quote-of-the-day] {
-    max-width: 23%;
+    max-width: 30%;
     margin-top: -5%;
-    margin-left: 40%;
+    margin-left: 37%;
   }
   section[id=news-body] div[class=news-body-container] .picture-headline {
     -ms-grid-row: 1;
@@ -579,8 +580,9 @@ div[class=temp] {
     margin: 5% 3%;
   }
   div[class=quotes] div[class=quote-of-the-day] {
-    max-width: 18%;
+    max-width: 23%;
     margin-top: -3.5%;
+    margin-left: 39%;
   }
   div[class=quotes] div[class=quotes-icons] {
     display: none;
@@ -731,6 +733,7 @@ div[class=temp] {
   div[class=quotes] div[class=quote-of-the-day] {
     max-width: 14%;
     margin-top: -2.3%;
+    margin-left: 43%;
   }
 
   div[class=slang] {
