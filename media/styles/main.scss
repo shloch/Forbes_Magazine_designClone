@@ -212,7 +212,24 @@ div[class="slang"] {
     padding-bottom: 0.7rem;
     span {
       color: #737373;
-      font-weight: 600;
+      max-width: 40%;
+      margin-top: -10%;
+      margin-left: 30%;
+      font-family: Work Sans,sans-serif;
+      letter-spacing: 2px;
+    }
+    div[class="quote"] {
+      margin-bottom: 2%;
+      p{
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333333;
+      }
+      .quote-author{
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #333333;
+      }
     }
   }
   div[class="slang-feeds"] {
@@ -289,11 +306,24 @@ section[id="mobileFooter"] {
       font-weight: bolder;
     }
   }
+  
 
+  div[class="slang"] {
+    max-width: 80%;
+    margin: auto;
+    padding-bottom:1rem ;
+    padding-top:1rem ;
+    color: #353333;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(226, 224, 224);
+    border-bottom: 1px solid rgb(226, 224, 224);
+    
+  }
   div[class="footer-links"] {
+    text-align: center;
     grid-area: footer-links;
     font: 400 15px/1.14 Work Sans,sans-serif;
-    text-align: center;
     display: grid;
     grid-template-columns: repeat(6, 16.66%);
     grid-template-rows: repeat(10, auto);

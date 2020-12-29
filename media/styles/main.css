@@ -161,7 +161,21 @@ div[class="slang"] {
     padding-bottom: 0.7rem; }
     div[class="slang"] div[class="slang-fobes"] span {
       color: #737373;
-      font-weight: 600; }
+      max-width: 40%;
+      margin-top: -10%;
+      margin-left: 30%;
+      font-family: Work Sans,sans-serif;
+      letter-spacing: 2px; }
+    div[class="slang"] div[class="slang-fobes"] div[class="quote"] {
+      margin-bottom: 2%; }
+      div[class="slang"] div[class="slang-fobes"] div[class="quote"] p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333333; }
+      div[class="slang"] div[class="slang-fobes"] div[class="quote"] .quote-author {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #333333; }
   div[class="slang"] div[class="slang-feeds"] {
     font: 700 16px Merriweather,serif;
     padding-bottom: 1.2rem; }
@@ -213,10 +227,20 @@ section[id="mobileFooter"] {
     section[id="mobileFooter"] div[class="country-editions"] .europe-edition {
       grid-area: europe-edition;
       font-weight: bolder; }
+  section[id="mobileFooter"] div[class="slang"] {
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #353333;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #e2e0e0;
+    border-bottom: 1px solid #e2e0e0; }
   section[id="mobileFooter"] div[class="footer-links"] {
+    text-align: center;
     grid-area: footer-links;
     font: 400 15px/1.14 Work Sans,sans-serif;
-    text-align: center;
     display: grid;
     grid-template-columns: repeat(6, 16.66%);
     grid-template-rows: repeat(10, auto);
@@ -364,9 +388,9 @@ section[id="desktopFooter"] {
       grid-template-areas: "twin-blog-1_l twin-blog-2_l"; }
 
   div[class="quotes"] div[class="quote-of-the-day"] {
-    max-width: 23%;
+    max-width: 30%;
     margin-top: -5%;
-    margin-left: 40%; }
+    margin-left: 37%; }
 
   section[id="mobileFooter"] div[class="country-editions"] {
     grid-template-columns: 40% 20% 40%;
@@ -493,8 +517,9 @@ section[id="desktopFooter"] {
   div[class="quotes"] {
     margin: 5% 3%; }
     div[class="quotes"] div[class="quote-of-the-day"] {
-      max-width: 18%;
-      margin-top: -3.5%; }
+      max-width: 23%;
+      margin-top: -3.5%;
+      margin-left: 39%; }
     div[class="quotes"] div[class="quotes-icons"] {
       display: none; }
     div[class="quotes"] div[class="share-icon"] {
@@ -571,7 +596,6 @@ section[id="desktopFooter"] {
         grid-template-rows: auto;
         grid-template-columns: repeat(3, 33.33%); }
     section[id="desktopFooter"] div[class="footerFoot"] {
-      padding-top: 4%;
       display: grid;
       grid-template-rows: auto;
       grid-template-columns: 30% 10% 10% 13% 7% 30%; }
@@ -588,7 +612,8 @@ section[id="desktopFooter"] {
     margin: 2% 3%; }
     div[class="quotes"] div[class="quote-of-the-day"] {
       max-width: 14%;
-      margin-top: -2.3%; }
+      margin-top: -2.3%;
+      margin-left: 43%; }
 
   div[class="slang"] {
     min-width: 95%;
