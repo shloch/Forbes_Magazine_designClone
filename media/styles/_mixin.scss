@@ -1,7 +1,9 @@
 @mixin newsHeaderMobile($color) {
-
+   border-top: 2px solid $color;
 }
-
+.header-title{
+    @include newsHeaderMobile(#42433D);    
+}
 //tablet
 
 //laptop
