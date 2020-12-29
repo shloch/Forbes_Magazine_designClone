@@ -1,0 +1,121 @@
+section[id="mobileFooter"] {
+  display: none;
+}
+
+section[id="desktopFooter"] {
+  background: #e6e6e6;
+  display: block;
+  padding: 2% 5% 2% 5%;
+  div {
+    //border: 1px solid black;
+  }
+  .mini-link {
+    a {
+      font-size: 0.6em;
+      text-decoration: none;
+      color: black;
+      //background: #e6e6e6;
+      //color: #080808;
+      font-family: Work Sans,sans-serif;
+      min-height: 235px;
+      font-weight: 700;
+      letter-spacing: -.4px;
+    }
+    
+  }
+  span[class="bold-heading"] {
+    font-size: 0.78em;
+    text-decoration: none;
+    color: black;
+    //background: #e6e6e6;
+    //color: #080808;
+    font-family: sans-serif;
+    min-height: 235px;
+    font-weight: 900;
+    letter-spacing: -.4px;
+  }
+  div[class="footerHead"] {
+    display: grid;
+    grid-template-rows: auto;
+    //grid-template-columns: repeat(12, 8.33%);
+    grid-template-columns: 8.3% 8% 8% 8% 8% 8% 12.33% 8% 8% 8% 8% 8% ;
+    border-bottom: 2px solid black;
+    .forbes {
+      font-size: 23px;
+      text-decoration: none;
+      color: black;
+      font-weight: bolder;
+      letter-spacing: -.4px;
+      padding-bottom: 4%;
+
+      display: flex;
+      
+      align-items:center;
+      justify-content:center;
+    }
+    div[class *="foot-head"] {
+      font-size: 12px;
+      text-decoration: none;
+      color: black;
+      //background: #e6e6e6;
+      //color: #080808;
+      font-family: sans-serif;
+      //min-height: 235px;
+      font-weight: bolder;
+      letter-spacing: -.4px;
+      display: flex;
+      
+      align-items:center;
+      justify-content:center;
+    }
+  }
+  div[class="footerBody"] {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 20% 20% 40%;
+    div[class="foot-body-4"] {
+      div[class="photos"] {
+        //border: 1px solid green;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 33.33%);
+      }
+  
+      div[class="red-links"] {
+        text-align: center;
+        a {
+          color: red;
+          font-size: 10px;
+          text-decoration: none;
+        }
+        
+      }
+      div[class="sub-3-blocks"] {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 33.33%);
+      }
+      
+    }
+  }
+
+  div[class="footerFoot"] {
+    padding-top: 4%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 30% 10% 10% 13% 7% 30%;
+    a {
+      font-size: 0.5em;
+      text-decoration: none;
+      color: black;
+      //background: #e6e6e6;
+      //color: #080808;
+      font-family: Work Sans,sans-serif;
+      min-height: 235px;
+      font-weight: 700;
+      letter-spacing: -.4px;
+    }
+    
+  }
+  
+}
