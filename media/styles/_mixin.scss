@@ -30,7 +30,7 @@
     border-bottom: 1px solid $color;
     display: flex;
     flex-direction: row;
-    margin: 20% auto 5% auto;
+    margin: 10% auto 5% auto;
     padding: 2% 1% 2% 3%;
     div[class*="news-arrow"]{
         display: flex;
@@ -55,7 +55,7 @@
     border-bottom: 1px solid $color;
     display: flex;
     flex-direction: row;
-    margin: 20% auto 5% auto;
+    margin: 10% auto 5% auto;
     padding: 1.5% 1% 1.5% 0;
     div[class*="news-arrow"]{
         display: flex;
@@ -70,4 +70,50 @@
         width: 10%;
     }
   
+}
+
+@mixin asideInnerDesign {
+    div[class*="aside-"] {
+        //border:1px solid green;
+        margin-bottom: 19%;
+      }
+      div[class="thumbnail"] {
+       img {
+         width: 100%;
+       }
+      }
+      div[class="thumbnail-h"] {
+        margin-bottom: 10%;  
+        h3:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      div[class="thumbnail-mini-h"] {
+        font-size: 0.85em;
+        color: $noSoBlack;
+      }
+}
+
+@mixin twinBlockQuadrupets {
+    display: flex;
+    flex-direction: row;
+    //border: 1px solid orangered;
+    //margin: 10% 0 15% 0;
+    div[class="img"] {
+      padding-right: 5%;
+    }
+    div[class="caption"] {
+      padding: 0;
+      font: 15px "calibri";
+      font-weight: bold;
+      span[class="by"] {
+        font-size: 0.85em;
+        color: $noSoBlack;
+      }
+      .caption-p:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
 }

@@ -1,14 +1,101 @@
+// ----------- grid structure ------------------------
 section[id="news-body"] {
   div[class="news-body-container"] {
     grid-template-areas: "picture-headline picture-headline aside"
                          "twin-blog twin-blog aside"
                          "twin-blog twin-blog aside";
-
+    div[class="twin-blog"] {
+      display:grid;
+      grid-template-columns: 48% 52%;
+      grid-template-areas: "twin-blog-1 twin-blog-2";
+  
+    }
   }
+ 
   div[class="news-body-container_l"] {
     grid-template-areas: "aside_l picture-headline_l picture-headline_l"
                          "aside_l twin-blog_l twin-blog_l"
                          "aside_l twin-blog_l twin-blog_l";
 
   }
+}
+
+// ---------- content styling ------------------------
+$noSoBlack: rgb(66, 66, 66);
+$newsBorders: #d1cece;
+//main news
+div[class="news-body-container"], div[class="news-body-container_l"] {
+  width: 87%;
+  margin: auto;
+  div[class="picture-headline"], div[class="picture-headline-l"] {
+    div[class="img-headline"] {
+      img {
+        width: 96.2%;
+      }
+    }
+   
+  }
+  
+
+  div[class="img-h"] {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    h2:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  
+  div[class="mini-caption"] {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.85em;
+    color: $noSoBlack;
+    border-bottom: 1px solid $newsBorders;
+    padding: 0 0 8% 0;
+  }
+}
+
+//twin blog
+div[class="twin-blog"], div[class="twin-blog_l"] {
+  margin-top: 10%;
+  div[class="twin-blog-1"] {
+    padding-right: 1%;
+  }
+  div[class="twin-blog-1_l"] {
+    padding-left: 5%;
+  }
+
+  div[class="twin-blog-2"], div[class="twin-blog-2_l"]  {
+    border-left: 1px solid $newsBorders;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div[class*="twin-blog-child"] {
+   @include twinBlockQuadrupets;
+  }
+
+  .t-1-2, .t-2-2 {
+    margin-top: 10%;
+  }
+}
+
+//aside
+div[class="aside"] {
+  padding-left:8%;
+  border-left: 0.8px solid $newsBorders;
+  @include asideInnerDesign;
+}
+
+div[class="aside_l"] {
+  padding-right:8%;
+  border-right: 0.8px solid $newsBorders;
+  @include asideInnerDesign;
+}
+
+div[class="picture-headline_l"]{
+  padding-left: 5%;
 }

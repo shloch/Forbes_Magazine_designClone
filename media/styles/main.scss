@@ -53,7 +53,7 @@ hr[class="newsCrossline"] {
 
 section[id="news-body"] {
   div[class="news-body-container"] {
-    border: 1px solid black;
+    //border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
     grid-template-rows: auto;
@@ -63,13 +63,12 @@ section[id="news-body"] {
 
     .picture-headline {
       grid-area: picture-headline;
-      height: 100px;
-      border: 1px solid red;
+      min-height: 100px;
+      //border: 1px solid red;
     }
     div[class="twin-blog"] {
       grid-area: twin-blog;
-      height: 100px;
-      border: 1px solid green;
+      //border: 1px solid green;
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto;
@@ -79,23 +78,23 @@ section[id="news-body"] {
       .twin-blog-1 {
           grid-area: twin-blog-1;
           height: auto;
-          border: 1px solid blue;
+          //border: 1px solid blue;
       }
       .twin-blog-2 {
           grid-area: twin-blog-2;
           height: auto;
-          border: 1px solid pink;
+          //border: 1px solid pink;
       }
 
     }
     .aside {
       grid-area: aside;
       min-height: 100px;
-      border: 1px solid yellow;
+      //border: 1px solid yellow;
     }
   }
   div[class="news-body-container_l"] {
-    border: 1px solid black;
+    //border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
     grid-template-rows: auto;
@@ -105,13 +104,13 @@ section[id="news-body"] {
 
     .picture-headline_l {
       grid-area: picture-headline_l;
-      height: 100px;
-      border: 1px solid red;
+      //height: 100px;
+      //border: 1px solid red;
     }
     div[class="twin-blog_l"] {
       grid-area: twin-blog_l;
-      height: 100px;
-      border: 1px solid green;
+      //height: 100px;
+      //border: 1px solid green;
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto;
@@ -120,19 +119,19 @@ section[id="news-body"] {
       
       .twin-blog-1_l {
           grid-area: twin-blog-1_l;
-          height: auto;
-          border: 1px solid blue;
+          //height: auto;
+          //border: 1px solid blue;
       }
       .twin-blog-2_l {
           grid-area: twin-blog-2_l;
-          height: auto;
-          border: 1px solid pink;
+          //height: auto;
+          //border: 1px solid pink;
       }
 
     }
     .aside_l {
       grid-area: aside_l;
-      border: 1px solid yellow;
+      //border: 1px solid yellow;
     }
   }
 }
@@ -377,6 +376,12 @@ div[class*="news-header-leadership"]{
 }
 div[class*="news-header-innovation"]{
   @include newsHeaderMobile(#0066B2)
+}
+
+//gallery
+.gallery {
+  min-width: 75px;
+  border:1px solid gray;
 }
 
 //tablet

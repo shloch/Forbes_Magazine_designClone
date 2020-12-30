@@ -1,6 +1,6 @@
 section[id="news-body"] {
     div[class="news-body-container"],div[class="news-body-container_l"] {
-      border: 1px solid black;
+      //border: 1px solid black;
       grid-template-areas: "picture-headline picture-headline picture-headline"
                            "twin-blog twin-blog twin-blog"
                            "aside aside aside";
@@ -12,7 +12,7 @@ section[id="news-body"] {
         }
       }
       div[class="news-body-container_l"] {
-        border: 1px solid black;
+        //border: 1px solid black;
         grid-template-areas: "picture-headline_l picture-headline_l picture-headline_l"
                              "twin-blog_l twin-blog_l twin-blog_l"
                              "aside_l aside_l aside_l";
