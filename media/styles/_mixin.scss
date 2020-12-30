@@ -1,6 +1,7 @@
 @mixin newsHeaderMobile($color) {
     color: $color;
-    border-top: 5px solid $color;
+    font-family: Work Sans,sans-serif;
+    border-top: 4px solid $color;
     display: flex;
     flex-direction: row;
     margin: 20% 0 3% 0;
@@ -23,8 +24,9 @@
 @mixin newsHeaderTablet($color) {
     //border-top: 2px solid $color;
     color: $color;
+    font-family: Work Sans,sans-serif;
     max-width: 80%;
-    border-top: 5px solid $color;
+    border-top: 4px solid $color;
     border-bottom: 1px solid $color;
     display: flex;
     flex-direction: row;
@@ -47,8 +49,9 @@
 @mixin newsHeaderLaptop($color) {
     //border-top: 2px solid $color;
     color: $color;
+    font-family: Work Sans,sans-serif;
     max-width: 80%;
-    border-top: 5px solid $color;
+    border-top: 4px solid $color;
     border-bottom: 1px solid $color;
     display: flex;
     flex-direction: row;
@@ -59,7 +62,7 @@
         justify-content: flex-start;
         width: 90%;
         padding-top: 0.7%;
-        padding-left: 0.5rem;
+        padding-left: 3rem;
     }
     div[class*="news-title"]{
         font-size: 1.6rem;
