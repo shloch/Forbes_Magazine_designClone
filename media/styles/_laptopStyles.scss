@@ -1,3 +1,4 @@
+@import 'mixin';
 header {
   .hamburger {
     padding-top: 26.3%;
@@ -16,7 +17,21 @@ section[id="breaknewsTablet"] {
 section[id="breaknewsLaptop"] {
   display: block;
 }
-
+div[class*="news-header-money"]{
+  @include newsHeaderLaptop(#598141)
+}
+div[class*="news-header-video"]{
+  @include newsHeaderLaptop(#4a37a0)
+}
+div[class*="news-header-lifestyle"]{
+  @include newsHeaderLaptop(#660434)
+}
+div[class*="news-header-leadership"]{
+  @include newsHeaderLaptop(#887411)
+}
+div[class*="news-header-innovation"]{
+  @include newsHeaderLaptop(#0066B2)
+}
 
 @import 'carouselLaptop';
 @import 'bodyNewsLaptop';

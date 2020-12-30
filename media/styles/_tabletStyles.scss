@@ -1,4 +1,4 @@
-
+@import 'mixin';
 header {
   grid-template-columns: 7% 85% 8%;
   div {
@@ -33,7 +33,21 @@ section[id="breaknewsLaptop"] {
 section[id="breaknewsTablet"] {
   display: block;
 }
-
+div[class*="news-header-money"]{
+  @include newsHeaderTablet(#598141)
+}
+div[class*="news-header-video"]{
+  @include newsHeaderTablet(#4a37a0)
+}
+div[class*="news-header-lifestyle"]{
+  @include newsHeaderTablet(#660434)
+}
+div[class*="news-header-leadership"]{
+  @include newsHeaderTablet(#887411)
+}
+div[class*="news-header-innovation"]{
+  @include newsHeaderTablet(#0066B2)
+}
 @import 'carouselTablet';
 @import 'bodyNewsTablet';
 @import 'quotesTablet';
