@@ -956,7 +956,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
     display: flex;
     flex-direction: row;
     margin: 20% auto 5% auto;
-    padding: 2% 1% 2% 0;
+    padding: 1.5% 1% 1.5% 0;
   }
   div[class*=news-header-money] div[class*=news-arrow] {
     display: flex;
@@ -980,7 +980,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
     display: flex;
     flex-direction: row;
     margin: 20% auto 5% auto;
-    padding: 2% 1% 2% 0;
+    padding: 1.5% 1% 1.5% 0;
   }
   div[class*=news-header-video] div[class*=news-arrow] {
     display: flex;
@@ -1004,14 +1004,14 @@ div[class*=news-header-innovation] div[class*=news-title] {
     display: flex;
     flex-direction: row;
     margin: 20% auto 5% auto;
-    padding: 2% 1% 2% 0;
+    padding: 1.5% 1% 1.5% 0;
   }
   div[class*=news-header-lifestyle] div[class*=news-arrow] {
     display: flex;
     justify-content: flex-start;
     width: 90%;
     padding-top: 0.7%;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
   }
   div[class*=news-header-lifestyle] div[class*=news-title] {
     font-size: 1.6rem;
@@ -1028,14 +1028,14 @@ div[class*=news-header-innovation] div[class*=news-title] {
     display: flex;
     flex-direction: row;
     margin: 20% auto 5% auto;
-    padding: 2% 1% 2% 0;
+    padding: 1.5% 1% 1.5% 0;
   }
   div[class*=news-header-leadership] div[class*=news-arrow] {
     display: flex;
     justify-content: flex-start;
     width: 90%;
     padding-top: 0.7%;
-    padding-left: 3rem;
+    padding-left: 3.5rem;
   }
   div[class*=news-header-leadership] div[class*=news-title] {
     font-size: 1.6rem;
@@ -1052,14 +1052,14 @@ div[class*=news-header-innovation] div[class*=news-title] {
     display: flex;
     flex-direction: row;
     margin: 20% auto 5% auto;
-    padding: 2% 1% 2% 0;
+    padding: 1.5% 1% 1.5% 0;
   }
   div[class*=news-header-innovation] div[class*=news-arrow] {
     display: flex;
     justify-content: flex-start;
     width: 90%;
     padding-top: 0.7%;
-    padding-left: 3rem;
+    padding-left: 3.2rem;
   }
   div[class*=news-header-innovation] div[class*=news-title] {
     font-size: 1.6rem;
