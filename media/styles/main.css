@@ -950,7 +950,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
   div[class*=news-header-money] {
     color: #598141;
     font-family: Work Sans, sans-serif;
-    max-width: 80%;
+    max-width: 87%;
     border-top: 4px solid #598141;
     border-bottom: 1px solid #598141;
     display: flex;
@@ -963,7 +963,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
     justify-content: flex-start;
     width: 90%;
     padding-top: 0.7%;
-    padding-left: 3rem;
+    padding-left: 0.7rem;
   }
   div[class*=news-header-money] div[class*=news-title] {
     font-size: 1.6rem;
@@ -974,7 +974,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
   div[class*=news-header-video] {
     color: #4a37a0;
     font-family: Work Sans, sans-serif;
-    max-width: 80%;
+    max-width: 87%;
     border-top: 4px solid #4a37a0;
     border-bottom: 1px solid #4a37a0;
     display: flex;
@@ -987,7 +987,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
     justify-content: flex-start;
     width: 90%;
     padding-top: 0.7%;
-    padding-left: 3rem;
+    padding-left: 0;
   }
   div[class*=news-header-video] div[class*=news-title] {
     font-size: 1.6rem;
@@ -998,7 +998,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
   div[class*=news-header-lifestyle] {
     color: #660434;
     font-family: Work Sans, sans-serif;
-    max-width: 80%;
+    max-width: 87%;
     border-top: 4px solid #660434;
     border-bottom: 1px solid #660434;
     display: flex;
@@ -1011,7 +1011,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
     justify-content: flex-start;
     width: 90%;
     padding-top: 0.7%;
-    padding-left: 3rem;
+    padding-left: 1.2rem;
   }
   div[class*=news-header-lifestyle] div[class*=news-title] {
     font-size: 1.6rem;
@@ -1022,7 +1022,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
   div[class*=news-header-leadership] {
     color: #887411;
     font-family: Work Sans, sans-serif;
-    max-width: 80%;
+    max-width: 87%;
     border-top: 4px solid #887411;
     border-bottom: 1px solid #887411;
     display: flex;
@@ -1046,7 +1046,7 @@ div[class*=news-header-innovation] div[class*=news-title] {
   div[class*=news-header-innovation] {
     color: #0066B2;
     font-family: Work Sans, sans-serif;
-    max-width: 80%;
+    max-width: 87%;
     border-top: 4px solid #0066B2;
     border-bottom: 1px solid #0066B2;
     display: flex;

@@ -46,11 +46,11 @@
 }
 
 //laptop
-@mixin newsHeaderLaptop($color) {
+@mixin newsHeaderLaptop($color,$x) {
     //border-top: 2px solid $color;
     color: $color;
     font-family: Work Sans,sans-serif;
-    max-width: 80%;
+    max-width: 87%;
     border-top: 4px solid $color;
     border-bottom: 1px solid $color;
     display: flex;
@@ -62,7 +62,7 @@
         justify-content: flex-start;
         width: 90%;
         padding-top: 0.7%;
-        padding-left: 3rem;
+        padding-left: $x;
     }
     div[class*="news-title"]{
         font-size: 1.6rem;

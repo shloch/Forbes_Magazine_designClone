@@ -18,19 +18,19 @@ section[id="breaknewsLaptop"] {
   display: block;
 }
 div[class*="news-header-money"]{
-  @include newsHeaderLaptop(#598141)
+  @include newsHeaderLaptop(#598141, 0.7rem);
 }
 div[class*="news-header-video"]{
-  @include newsHeaderLaptop(#4a37a0)
+  @include newsHeaderLaptop(#4a37a0,0)
 }
 div[class*="news-header-lifestyle"]{
-  @include newsHeaderLaptop(#660434)
+  @include newsHeaderLaptop(#660434,1.2rem)
 }
 div[class*="news-header-leadership"]{
-  @include newsHeaderLaptop(#887411)
+  @include newsHeaderLaptop(#887411,3rem)
 }
 div[class*="news-header-innovation"]{
-  @include newsHeaderLaptop(#0066B2)
+  @include newsHeaderLaptop(#0066B2,3rem)
 }
 
 @import 'carouselLaptop';
