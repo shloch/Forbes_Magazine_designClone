@@ -1,6 +1,11 @@
+$noSoBlack: rgb(56, 55, 55);
+$veryGray: rgb(214, 210, 210);
+$newsBorders: #d1cece;
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 @import 'mixin';
+@include social-media-mini-logos;
+
 body {
   //background-color: yellowgreen;
   margin: 0%;
@@ -16,6 +21,11 @@ header {
   grid-template-areas: "hamburger logo searchIcon";
   margin: 0%;
   padding: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
   div {
     padding-bottom: 6.3%;
   }
@@ -53,6 +63,8 @@ hr[class="newsCrossline"] {
 
 section[id="news-body"] {
   div[class="news-body-container"] {
+    width: 90%;
+    margin:auto;
     //border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
@@ -65,11 +77,19 @@ section[id="news-body"] {
       grid-area: picture-headline;
       min-height: 100px;
       //border: 1px solid red;
+      img {
+        width: 100%;
+      }
+      img-h {
+        font-family: serif;
+        color: $noSoBlack;
+      }
     }
     div[class="twin-blog"] {
+      display: none;
       grid-area: twin-blog;
       //border: 1px solid green;
-      display: grid;
+      //display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto;
       grid-template-areas: "twin-blog-1"
@@ -91,9 +111,14 @@ section[id="news-body"] {
       grid-area: aside;
       min-height: 100px;
       //border: 1px solid yellow;
+      div[class="thumbnail"] {
+        display: none;
+      }
     }
   }
   div[class="news-body-container_l"] {
+    width: 90%;
+        margin:auto;
     //border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
@@ -104,14 +129,25 @@ section[id="news-body"] {
 
     .picture-headline_l {
       grid-area: picture-headline_l;
-      //height: 100px;
-      //border: 1px solid red;
+      div[class="img-headline_l"] {
+        
+        img {
+          width: 100%;
+        }
+       
+      }
+      .img-h {
+          font-family: serif;
+          color: $noSoBlack;
+          font-size: 0.9em;
+      }
     }
     div[class="twin-blog_l"] {
+      display: none;
       grid-area: twin-blog_l;
       //height: 100px;
       //border: 1px solid green;
-      display: grid;
+      //display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto;
       grid-template-areas: "twin-blog-1_l"
@@ -132,8 +168,29 @@ section[id="news-body"] {
     .aside_l {
       grid-area: aside_l;
       //border: 1px solid yellow;
+      div[class="thumbnail"] {
+        display: none;
+      }
     }
   }
+}
+
+div[class="mini-caption"] {
+  @include mini-caption;
+}
+.thumbnail-h {
+  font-size: 0.89em;
+  border-top: 1px solid $veryGray;
+  color: $noSoBlack;
+}
+.thumbnail-mini-h {
+  @include mini-caption;
+  color: $noSoBlack;
+}
+
+div[class="more-news"] {
+  letter-spacing: 1.4px;
+  cursor: pointer;
 }
 
 select[id="edition"] {
@@ -251,6 +308,7 @@ div[class="temp"] {
 }
 
 section[id="mobileFooter"] {
+  margin-top: 15%;
   background-color: rgb(226, 226, 226);
   display: grid;
   grid-template-rows: repeat(3, 33.333%);
@@ -258,9 +316,12 @@ section[id="mobileFooter"] {
   grid-template-areas: "big-forbes"
                         "country-editions"
                         "footer-links";
+    
 
   
   div[class="big-forbes"] {
+    width:80%;
+    margin:auto;
     text-align: center;
     grid-area: big-forbes;
     border-bottom: 1px solid rgb(184, 182, 182);
@@ -276,6 +337,8 @@ section[id="mobileFooter"] {
   } 
 
   div[class="country-editions"] {
+    width:80%;
+    margin:auto;
     text-align: center;
     grid-area: country-editions;
     display: grid;
@@ -292,6 +355,7 @@ section[id="mobileFooter"] {
       padding: 10px 20px;
       font-weight: 600;
       justify-content: space-between;
+
     }
     .us-edition {
       grid-area: us-edition;
@@ -306,19 +370,10 @@ section[id="mobileFooter"] {
   }
   
 
-  div[class="slang"] {
-    max-width: 80%;
-    margin: auto;
-    padding-bottom:1rem ;
-    padding-top:1rem ;
-    color: #353333;
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid rgb(226, 224, 224);
-    border-bottom: 1px solid rgb(226, 224, 224);
-    
-  }
+
   div[class="footer-links"] {
+    width:80%;
+    margin:auto;
     text-align: center;
     grid-area: footer-links;
     font: 400 15px/1.14 Work Sans,sans-serif;
@@ -357,6 +412,7 @@ section[id="mobileFooter"] {
     }
   }
 }
+
 
 section[id="desktopFooter"] {
   display: none;

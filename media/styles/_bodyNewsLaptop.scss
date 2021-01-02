@@ -10,6 +10,15 @@ section[id="news-body"] {
       grid-template-areas: "twin-blog-1 twin-blog-2";
   
     }
+
+    div[class="aside"] {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "aside-1"
+                            "aside-2";
+
+  }
   }
  
   div[class="news-body-container_l"] {
@@ -21,8 +30,7 @@ section[id="news-body"] {
 }
 
 // ---------- content styling ------------------------
-$noSoBlack: rgb(66, 66, 66);
-$newsBorders: #d1cece;
+
 //main news
 div[class="news-body-container"], div[class="news-body-container_l"] {
   width: 87%;
