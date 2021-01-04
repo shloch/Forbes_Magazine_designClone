@@ -5,6 +5,7 @@ $newsBorders: #d1cece;
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
 @import 'mixin';
 @include social-media-mini-logos;
+@import 'gallery';
 
 body {
   //background-color: yellowgreen;
@@ -432,12 +433,6 @@ div[class*="news-header-leadership"]{
 }
 div[class*="news-header-innovation"]{
   @include newsHeaderMobile(#0066B2)
-}
-
-//gallery
-.gallery {
-  min-width: 75px;
-  border:1px solid gray;
 }
 
 //tablet
