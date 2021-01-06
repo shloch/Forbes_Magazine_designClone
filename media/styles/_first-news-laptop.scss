@@ -1,0 +1,32 @@
+div[class="first-news-body-container"] {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.333%);
+    grid-template-rows: auto;
+    grid-template-areas: "first-picture-headline first-picture-headline first-aside"
+                         "first-twin-blog first-twin-blog first-aside"
+                         "first-twin-blog first-twin-blog first-aside";
+
+    .first-picture-headline {
+      img {
+        width: 95%;
+      } 
+    }
+
+    div[class="first-twin-blog"] {
+      display: grid;
+      grid-area: first-twin-blog;
+      grid-template-columns: 48% 52%;
+      grid-template-areas: "twin-blog-1 twin-blog-2";
+    }
+    .first-aside {
+      padding-left:8%;
+      border-left: 0.8px solid $newsBorders;   
+      div[class="side-links"] {
+        padding: 6% 2%;
+        a {
+          font-size: 1em;
+        }      
+      }
+    }
+}

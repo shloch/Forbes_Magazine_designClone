@@ -7,11 +7,13 @@ $newsBorders: #d1cece;
 @include social-media-mini-logos;
 @import 'gallery';
 
+
 body {
   //background-color: yellowgreen;
   margin: 0%;
   padding: 0%;
 }
+@import 'first-news-mobile';
 
 header {
   background-color: rgb(19, 17, 17);
@@ -81,7 +83,7 @@ section[id="news-body"] {
       img {
         width: 100%;
       }
-      img-h {
+      .img-h {
         font-family: serif;
         color: $noSoBlack;
       }
