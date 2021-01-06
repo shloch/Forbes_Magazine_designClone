@@ -77,6 +77,10 @@ section[id="desktopFooter"] {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(3, 33.33%);
+        img {
+          width:118px;
+          height: 158px;
+        }
       }
   
       div[class="red-links"] {
