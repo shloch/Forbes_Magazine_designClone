@@ -30,6 +30,10 @@ section[id="breaknewsLaptop"] {
   display: none;
 }
 
+div[class="twin-blog"], div[class="twin-blog_l"] {
+  display: block;
+}
+
 section[id="breaknewsTablet"] {
   display: block;
 }
