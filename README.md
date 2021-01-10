@@ -21,7 +21,7 @@
 Cloning Forbes.com website design using css grid systems
 
 ### Live demo
-- https://raw.githack.com/shloch/Forbes_Magazine_designClone/framework/index.html
+- https://raw.githack.com/shloch/Forbes_Magazine_designClone/main/index.html
 
 ### Technologies
 
