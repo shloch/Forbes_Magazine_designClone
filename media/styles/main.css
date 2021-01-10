@@ -109,6 +109,11 @@ div[class=first-news-body-container] .first-picture-headline .img-h {
   text-align: center;
   text-decoration: underline;
 }
+div[class=first-news-body-container] div[class=grey-seperator] {
+  min-height: 50px;
+  width: 100%;
+  background-color: #000000;
+}
 div[class=first-news-body-container] div[class=first-twin-blog] {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
@@ -1437,6 +1442,16 @@ div[class=first-news-body-container] div[class=first-twin-blog] .twin-blog-2 {
     display: none;
   }
 
+  div[class=slang] {
+    margin-bottom: 5%;
+  }
+  div[class=slang] div[class=slang-feeds] {
+    min-width: 20%;
+  }
+  div[class=slang] div[class=slang-social-media] {
+    min-width: 20%;
+  }
+
   section[id=breaknewsLaptop] {
     display: block;
   }
@@ -1538,11 +1553,11 @@ div[class=first-news-body-container] div[class=first-twin-blog] .twin-blog-2 {
   }
 
   div[class*=news-header-innovation] {
-    color: #0066B2;
+    color: #0066b2;
     font-family: Work Sans, sans-serif;
     max-width: 87%;
-    border-top: 4px solid #0066B2;
-    border-bottom: 1px solid #0066B2;
+    border-top: 4px solid #0066b2;
+    border-bottom: 1px solid #0066b2;
     display: flex;
     flex-direction: row;
     margin: 10% auto 5% auto;

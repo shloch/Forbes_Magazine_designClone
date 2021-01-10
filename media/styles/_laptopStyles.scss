@@ -1,4 +1,4 @@
-@import 'mixin';
+@import "mixin";
 header {
   .hamburger {
     padding-top: 26.3%;
@@ -12,29 +12,37 @@ header {
 section[id="breaknewsTablet"] {
   display: none;
 }
-
+div[class="slang"] {
+  margin-bottom: 5%;
+  div[class="slang-feeds"] {
+    min-width: 20%;
+  }
+  div[class="slang-social-media"] {
+    min-width: 20%;
+  }
+}
 
 section[id="breaknewsLaptop"] {
   display: block;
 }
-div[class*="news-header-money"]{
+div[class*="news-header-money"] {
   @include newsHeaderLaptop(#598141, 0.7rem);
 }
-div[class*="news-header-video"]{
-  @include newsHeaderLaptop(#4a37a0,0)
+div[class*="news-header-video"] {
+  @include newsHeaderLaptop(#4a37a0, 0);
 }
-div[class*="news-header-lifestyle"]{
-  @include newsHeaderLaptop(#660434,1.5rem)
+div[class*="news-header-lifestyle"] {
+  @include newsHeaderLaptop(#660434, 1.5rem);
 }
-div[class*="news-header-leadership"]{
-  @include newsHeaderLaptop(#887411,3.5rem)
+div[class*="news-header-leadership"] {
+  @include newsHeaderLaptop(#887411, 3.5rem);
 }
-div[class*="news-header-innovation"]{
-  @include newsHeaderLaptop(#0066B2,3.2rem)
+div[class*="news-header-innovation"] {
+  @include newsHeaderLaptop(#0066b2, 3.2rem);
 }
 
-@import 'carouselLaptop';
-@import 'bodyNewsLaptop';
-@import 'quotesLaptop';
-@import 'footerDesktop';
-@import 'first-news-laptop';
+@import "carouselLaptop";
+@import "bodyNewsLaptop";
+@import "quotesLaptop";
+@import "footerDesktop";
+@import "first-news-laptop";
