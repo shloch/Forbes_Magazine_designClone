@@ -32,24 +32,12 @@ Cloning Forbes.com website design using css grid systems
 
 ## Screenshots
 
-### on PC 
-`index.html`
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_1.png)
+ ![alt
+  36
+  text](https://github.com/shloch/Forbes_Magazine_designClone/blob/main/screenshoot/forbes.png)
 
-`signIn.html`
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_2.png)
-
-`signUp.html`
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_3.png)
-
-`dashboard.html`
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_4.png)
-
-### on mobile
-
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_1.png)
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_2.png)
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/mobile/screenshot_3.png)
+![alt
+text](https://github.com/shloch/Forbes_Magazine_designClone/blob/main/screenshoot/forbes.gif)
 
 
 ## Contributors
