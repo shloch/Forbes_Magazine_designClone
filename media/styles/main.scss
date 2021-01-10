@@ -27,6 +27,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 
   div {
     padding-bottom: 6.3%;
@@ -62,6 +63,7 @@ hr[class="newsCrossline"] {
 }
 
 section[id="news-body"] {
+  margin-top: 20%;
   div[class="news-body-container"] {
     width: 90%;
     margin: auto;
@@ -174,7 +176,10 @@ section[id="news-body"] {
     }
   }
 }
-
+div[class="gutter"] {
+  min-height: 10px;
+  background-color: red;
+}
 div[class="mini-caption"] {
   @include mini-caption;
 }
