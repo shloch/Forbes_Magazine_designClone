@@ -14,11 +14,10 @@ section[id="breaknewsTablet"] {
 }
 div[class="slang"] {
   margin-bottom: 5%;
-  div[class="slang-feeds"] {
-    min-width: 20%;
-  }
-  div[class="slang-social-media"] {
-    min-width: 20%;
+  div[class="slang-fobes"] {
+    min-width: 100px;
+    color: #353333;
+    font-weight: bold;
   }
 }
 

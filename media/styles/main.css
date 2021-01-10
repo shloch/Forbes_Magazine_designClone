@@ -1445,11 +1445,10 @@ div[class=first-news-body-container] div[class=first-twin-blog] .twin-blog-2 {
   div[class=slang] {
     margin-bottom: 5%;
   }
-  div[class=slang] div[class=slang-feeds] {
-    min-width: 20%;
-  }
-  div[class=slang] div[class=slang-social-media] {
-    min-width: 20%;
+  div[class=slang] div[class=slang-fobes] {
+    min-width: 100px;
+    color: #353333;
+    font-weight: bold;
   }
 
   section[id=breaknewsLaptop] {
