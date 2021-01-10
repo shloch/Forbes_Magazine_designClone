@@ -1,0 +1,49 @@
+
+div[class="more-news"] {
+  display: none;
+}
+
+section[id="mobileFooter"] {
+  margin-top: 5%;
+}
+
+section[id="mobileFooter"] div[class="footer-links"] div a {
+  font-size: 0.77em;
+}
+
+section[id="news-body"] {
+  div[class="news-body-container"] {
+      //border: 1px solid black;
+      grid-template-areas: "picture-headline picture-headline picture-headline"
+                           "aside aside aside"
+                           "twin-blog twin-blog twin-blog";
+
+      div[class="twin-blog"] {
+        display: grid;
+        @include twin-block-tablet;
+        
+      }
+
+      div[class="aside"] {
+        @include aside_inner_design_tablet;
+      }
+  }
+
+  div[class="news-body-container_l"] {
+     
+      grid-template-areas: "picture-headline_l picture-headline_l picture-headline_l"
+                            "aside_l aside_l aside_l"
+                            "twin-blog_l twin-blog_l twin-blog_l";
+      div[class="twin-blog_l"] {
+        display: grid;  
+        @include twin-block-tablet;
+       
+      }
+      div[class="aside_l"] {
+        @include aside_inner_design_tablet;
+      }
+  }
+    
+}
+
+@include picture-headline-tablet;

@@ -1,0 +1,19 @@
+div[class="quotes"] {
+    margin: 5% 5%;
+    div[class="quote-of-the-day"] {
+      max-width: 23%;
+      margin-top: -3.5%;
+      margin-left: 39%;
+    }
+    div[class="quotes-icons"] {
+      display: none;
+    }
+    div[class="share-icon"] {
+      display: block;
+      color: #686666;
+      font-size: 0.8rem;
+      i{
+        font-size: 11px;
+      }
+    }
+}
