@@ -84,16 +84,17 @@ div[class="first-news-body-container"] {
       }
       div[class="picks"] {
         padding: 0;
+        text-align: left;
         img {
-          max-width: 97%;
+          max-width: 95%;
         }
       }
     }
     div[class="users-number"] {
       display: flex;
       flex-direction: row;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin: 5% auto;
+      width: 95%;
       div[class="readers-number"] {
         display: flex;
         flex-direction: row;
@@ -126,6 +127,7 @@ div[class="first-news-body-container"] {
       border-bottom: 0.8px solid $newsBorders;
       div[class="number-arrow"] {
         margin-right: 2rem;
+        padding-top: 0.15rem;
         text-align: center;
         i {
           padding-top: 0.5rem;
